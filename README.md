@@ -29,7 +29,7 @@ must implement:
 * Given a number determine whether or not it is valid per the Luhn formula.
 * Parse and evaluate simple math word problems returning the answer as an integer.
 
-## Requirements:
+## Requirements
 * Git
 * GitHub Account
 * IDE/Text Editor
