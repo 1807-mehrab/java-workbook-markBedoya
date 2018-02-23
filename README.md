@@ -38,7 +38,7 @@ Your trainer will pass out a link for assignments, projects, and coding challeng
 
 Open a terminal shell or git-scm terminal and clone the repository to your computer using the Git command:
 	
-	`git clone https://github.com/[OrganizationName]/[RepositoryName].git`
+	git clone https://github.com/[OrganizationName]/[RepositoryName].git
 
 Next, open the project with your preferred text editor or IDE and complete the assignment according to your trainer’s instructions or Readme. When you are ready to submit your assignment, add, commit, and push your changes using the git commands:
 
