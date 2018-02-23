@@ -15,7 +15,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.junit.Ignore;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
@@ -584,28 +583,24 @@ public class EvaluationServiceTest {
 				evaluationService.getGigasecondDate(LocalDate.of(2011, Month.APRIL, 25)));
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void afterEpochTime() {
 		assertEquals(LocalDateTime.of(2009, Month.FEBRUARY, 19, 1, 46, 40),
 				evaluationService.getGigasecondDate(LocalDate.of(1977, Month.JUNE, 13)));
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void beforeEpochTime() {
 		assertEquals(LocalDateTime.of(1991, Month.MARCH, 27, 1, 46, 40),
 				evaluationService.getGigasecondDate(LocalDate.of(1959, Month.JULY, 19)));
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void withFullTimeSpecified() {
 		assertEquals(LocalDateTime.of(2046, Month.OCTOBER, 2, 23, 46, 40),
 				evaluationService.getGigasecondDate(LocalDateTime.of(2015, Month.JANUARY, 24, 22, 0, 0)));
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void withFullTimeSpecifiedAndDayRollover() {
 		assertEquals(LocalDateTime.of(2046, Month.OCTOBER, 3, 1, 46, 39),
@@ -615,7 +610,6 @@ public class EvaluationServiceTest {
 	/*******************************************************************
 	 * Question 18
 	 ******************************************************************/
-	@Ignore("Remove to run test")
 	@Test
 	public void testSumOfMultiplesOf4and6UpToFifteen() {
 
@@ -625,7 +619,6 @@ public class EvaluationServiceTest {
 
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void testSumOfMultiplesOf5and6and8UpToOneHundredFifty() {
 
@@ -635,7 +628,6 @@ public class EvaluationServiceTest {
 
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void testSumOfMultiplesOf5and25UpToFiftyOne() {
 
@@ -645,7 +637,6 @@ public class EvaluationServiceTest {
 
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void testSumOfMultiplesOf43and47UpToTenThousand() {
 
@@ -655,7 +646,6 @@ public class EvaluationServiceTest {
 
 	}
 
-	@Ignore("Remove to run test")
 	@Test
 	public void testSumOfMultiplesOfOneUpToOneHundred() {
 
