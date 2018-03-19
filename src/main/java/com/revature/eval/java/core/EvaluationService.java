@@ -14,8 +14,11 @@ public class EvaluationService {
 	 * @return
 	 */
 	public String reverse(String string) {
-		// TODO Write an implementation for this method declaration
-		return null;
+		char[] reversed = new char[string.length()];
+		for (int i = reversed.length - 1, j=0; i >= 0; i--, j++) {
+			reversed[j] = string.charAt(i);
+		}
+		return new String(reversed);
 	}
 
 	/**
@@ -277,7 +280,7 @@ public class EvaluationService {
 	 * @param l
 	 * @return
 	 */
-	public List<Integer> calculatePrimeFactorsOf(long l) {
+	public List<Long> calculatePrimeFactorsOf(long l) {
 		// TODO Write an implementation for this method declaration
 		return null;
 	}
